@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  width: 100%; }
+
+.oll-button {
+  width: 200px;
+  height: 60px;
+  font-size: 24px;
+  border-radius: 10px;
+  background-color: #308f30;
+  color: white;
+  cursor: pointer;
+  outline: none; }
+  .oll-button:hover {
+    -webkit-box-shadow: 0 0 10px green;
+    box-shadow: 0 0 10px green; }
+
+.header {
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  height: 400px;
+  background-color: rgba(93, 179, 67, 0.5);
+  text-align: center;
+  margin-top: 150px;
+  border-radius: 20px;
+  -webkit-box-shadow: 10px 5px 5px rgba(118, 219, 87, 0.5);
+  box-shadow: 10px 5px 5px rgba(118, 219, 87, 0.5); }
+  .header__button {
+    margin-top: 160px; }
+
+.block {
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  height: 400px;
+  background-color: rgba(93, 179, 67, 0.5);
+  -webkit-box-shadow: 10px 5px 5px rgba(118, 219, 87, 0.5);
+  box-shadow: 10px 5px 5px rgba(118, 219, 87, 0.5);
+  margin-top: 150px;
+  border-radius: 20px;
+  text-align: center; }
+  .block__yes {
+    margin-top: 160px;
+    margin-right: 200px; }
+  .block__no {
+    background-color: #d34444; }
+    .block__no:hover {
+      -webkit-box-shadow: 0 0 10px red;
+      box-shadow: 0 0 10px red; }
+
+.no {
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  height: 400px;
+  background-color: rgba(93, 179, 67, 0.5);
+  text-align: center;
+  margin-top: 150px;
+  border-radius: 20px;
+  -webkit-box-shadow: 10px 5px 5px rgba(118, 219, 87, 0.5);
+  box-shadow: 10px 5px 5px rgba(118, 219, 87, 0.5); }
+  .no__h1 {
+    padding-top: 100px;
+    color: white;
+    font-size: 60px;
+    height: 100px; }
+  .no__out {
+    margin-top: 80px; }
+
+.yes {
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  height: 400px;
+  background-color: rgba(93, 179, 67, 0.5);
+  -webkit-box-shadow: 10px 5px 5px rgba(118, 219, 87, 0.5);
+  box-shadow: 10px 5px 5px rgba(118, 219, 87, 0.5);
+  margin-top: 150px;
+  border-radius: 20px;
+  display: none; }
+  .yes__form {
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 400px; }
+    .yes__form-p {
+      width: 200px;
+      margin-left: 100px;
+      color: white;
+      font-size: 20px;
+      margin-top: 10px; }
+      .yes__form-p-input {
+        width: 200px;
+        margin-top: 5px;
+        height: 35px;
+        border: none;
+        padding-left: 5px;
+        padding-right: 5px;
+        border-radius: 10px;
+        outline: none;
+        font-size: 20px; }
+    .yes__form-p:first-of-type {
+      padding-top: 30px; }
+    .yes__form-button {
+      margin-left: 100px;
+      margin-top: 70px; }
