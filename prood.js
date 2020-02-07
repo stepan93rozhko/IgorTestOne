@@ -21,7 +21,7 @@ $(".block__yes").click(function(){
     $(".yes").show();
 });
 
-$(".yes__form-button").click(function(){
-    $(".yes").hide();
-    $("#header").show();
-});
+// $(".yes__form-button").click(function(){
+//     $(".yes").hide();
+//     $("#header").show();
+// });
